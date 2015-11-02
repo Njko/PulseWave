@@ -1,0 +1,14 @@
+PODS:
+  - PulseWave (0.1.0)
+
+DEPENDENCIES:
+  - PulseWave (from `../`)
+
+EXTERNAL SOURCES:
+  PulseWave:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PulseWave: f73830ef65aa2195d63997db61fd1a066feee155
+
+COCOAPODS: 0.39.0

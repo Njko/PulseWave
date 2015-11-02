@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28B0725C52CAB26805D289CA265F4398 /* PulseWave-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A4C3D2BFFD3D3A4D19FA9A5D1781CC /* PulseWave-dummy.m */; };
+		6826F20884737D90412B4442DC228899 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		8EC06F653341669EAF8294557D7634FE /* PulseWave-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7452FB67E98DED4F60E957630BF0799B /* PulseWave-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FFAD10510367F11AA5B3C47C145262A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		AC7EE1762CC89BADDDEAA185C5DACFA6 /* PulseWave.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8A2B2A0ABB03B53938C046CD36133726 /* PulseWave.bundle */; };
+		CC9104EC03B875DACD81277E1971BEAA /* Pods-PulseWave_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97D2BB88BE377050142714E605B192DD /* Pods-PulseWave_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6B00A8C1BE7A24400D729F5 /* PWByteUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E6B00A841BE7A24400D729F5 /* PWByteUtils.h */; settings = {ASSET_TAGS = (); }; };
+		E6B00A8D1BE7A24400D729F5 /* PWByteUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E6B00A841BE7A24400D729F5 /* PWByteUtils.h */; settings = {ASSET_TAGS = (); }; };
+		E6B00A8E1BE7A24400D729F5 /* PWByteUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B00A851BE7A24400D729F5 /* PWByteUtils.m */; settings = {ASSET_TAGS = (); }; };
+		E6B00A8F1BE7A24400D729F5 /* PWByteUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B00A851BE7A24400D729F5 /* PWByteUtils.m */; settings = {ASSET_TAGS = (); }; };
+		E6B00A901BE7A24400D729F5 /* PWEtactCmd.h in Headers */ = {isa = PBXBuildFile; fileRef = E6B00A861BE7A24400D729F5 /* PWEtactCmd.h */; settings = {ASSET_TAGS = (); }; };
+		E6B00A911BE7A24400D729F5 /* PWEtactCmd.h in Headers */ = {isa = PBXBuildFile; fileRef = E6B00A861BE7A24400D729F5 /* PWEtactCmd.h */; settings = {ASSET_TAGS = (); }; };
+		E6B00A921BE7A24400D729F5 /* PWEtactCmd.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B00A871BE7A24400D729F5 /* PWEtactCmd.m */; settings = {ASSET_TAGS = (); }; };
+		E6B00A931BE7A24400D729F5 /* PWEtactCmd.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B00A871BE7A24400D729F5 /* PWEtactCmd.m */; settings = {ASSET_TAGS = (); }; };
+		E6B00A941BE7A24400D729F5 /* PWEtactCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = E6B00A881BE7A24400D729F5 /* PWEtactCommands.h */; settings = {ASSET_TAGS = (); }; };
+		E6B00A951BE7A24400D729F5 /* PWEtactCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = E6B00A881BE7A24400D729F5 /* PWEtactCommands.h */; settings = {ASSET_TAGS = (); }; };
+		E6B00A961BE7A24400D729F5 /* PWEtactCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B00A891BE7A24400D729F5 /* PWEtactCommands.m */; settings = {ASSET_TAGS = (); }; };
+		E6B00A971BE7A24400D729F5 /* PWEtactCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B00A891BE7A24400D729F5 /* PWEtactCommands.m */; settings = {ASSET_TAGS = (); }; };
+		E6B00A981BE7A24400D729F5 /* PWEtactReader.h in Headers */ = {isa = PBXBuildFile; fileRef = E6B00A8A1BE7A24400D729F5 /* PWEtactReader.h */; settings = {ASSET_TAGS = (); }; };
+		E6B00A991BE7A24400D729F5 /* PWEtactReader.h in Headers */ = {isa = PBXBuildFile; fileRef = E6B00A8A1BE7A24400D729F5 /* PWEtactReader.h */; settings = {ASSET_TAGS = (); }; };
+		E6B00A9A1BE7A24400D729F5 /* PWEtactReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B00A8B1BE7A24400D729F5 /* PWEtactReader.m */; settings = {ASSET_TAGS = (); }; };
+		E6B00A9B1BE7A24400D729F5 /* PWEtactReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B00A8B1BE7A24400D729F5 /* PWEtactReader.m */; settings = {ASSET_TAGS = (); }; };
+		ED458969532901EC392BAD63CEDDF65B /* Pods-PulseWave_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB8D30D2CD2316583C01DBAFF6A95E6 /* Pods-PulseWave_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C212DDEDF370F3EC738FD19E934C91E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2BA03F71BD7EA5FC872C91BF06AF91F;
+			remoteInfo = PulseWave;
+		};
+		7EAB4D7FE6687B003B075BC2F178FDAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85811539B363337ED0AFC2026E297829;
+			remoteInfo = "PulseWave-PulseWave";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0563B3E490618FFF253EC2F2805F44C1 /* PulseWave.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PulseWave.xcconfig; sourceTree = "<group>"; };
+		08A4C3D2BFFD3D3A4D19FA9A5D1781CC /* PulseWave-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PulseWave-dummy.m"; sourceTree = "<group>"; };
+		0FF83AE0D6E97D427D73BCB26615D41A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11460D248817B95C6127477F9D100EA4 /* Pods-PulseWave_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PulseWave_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1642C5785F59AD7834716691621AD2FC /* Pods-PulseWave_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PulseWave_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3369893C3446968A11B50DDEFA28E034 /* Pods-PulseWave_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PulseWave_Tests-resources.sh"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7452FB67E98DED4F60E957630BF0799B /* PulseWave-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PulseWave-umbrella.h"; sourceTree = "<group>"; };
+		8A2B2A0ABB03B53938C046CD36133726 /* PulseWave.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulseWave.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		927BCA37D602514136B782E7995B936B /* Pods-PulseWave_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PulseWave_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		951BFE9EF017FF198E68F71BBC82B8BE /* PulseWave-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PulseWave-prefix.pch"; sourceTree = "<group>"; };
+		97D2BB88BE377050142714E605B192DD /* Pods-PulseWave_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PulseWave_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9F2B5AD343A8AC6E7E12CDB579BEFCEF /* Pods_PulseWave_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PulseWave_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A76848A5947A338C97D0857E3D41EA69 /* Pods-PulseWave_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PulseWave_Tests.modulemap"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC77CD13700FB14DF36E2BF418F9D7AA /* Pods-PulseWave_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PulseWave_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C6418275EA2CFF6B7244E92E997B6323 /* PulseWave.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PulseWave.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8DF7D1A32F24EFEE8E26C46685DBE44 /* PulseWave.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PulseWave.modulemap; sourceTree = "<group>"; };
+		C9AE73B0AB27DE3D1B9F5CA400506C34 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6B00A841BE7A24400D729F5 /* PWByteUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWByteUtils.h; sourceTree = "<group>"; };
+		E6B00A851BE7A24400D729F5 /* PWByteUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWByteUtils.m; sourceTree = "<group>"; };
+		E6B00A861BE7A24400D729F5 /* PWEtactCmd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWEtactCmd.h; sourceTree = "<group>"; };
+		E6B00A871BE7A24400D729F5 /* PWEtactCmd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWEtactCmd.m; sourceTree = "<group>"; };
+		E6B00A881BE7A24400D729F5 /* PWEtactCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWEtactCommands.h; sourceTree = "<group>"; };
+		E6B00A891BE7A24400D729F5 /* PWEtactCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWEtactCommands.m; sourceTree = "<group>"; };
+		E6B00A8A1BE7A24400D729F5 /* PWEtactReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWEtactReader.h; sourceTree = "<group>"; };
+		E6B00A8B1BE7A24400D729F5 /* PWEtactReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWEtactReader.m; sourceTree = "<group>"; };
+		ECAAF68B4C49C7285F3F4E12989BC326 /* Pods-PulseWave_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PulseWave_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFB8D30D2CD2316583C01DBAFF6A95E6 /* Pods-PulseWave_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PulseWave_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3943F44F71B8A6A927AA87E0FAAF2241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFAD10510367F11AA5B3C47C145262A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01BBBF1B14867A56A9F69A33F46A7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0642A035ED76E5379A0C2E37E4E4C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6826F20884737D90412B4442DC228899 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		208188E01E22DF8E270F78597370632F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2530352ECF55FACB1A69A0D733FB556C /* PulseWave */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2530352ECF55FACB1A69A0D733FB556C /* PulseWave */ = {
+			isa = PBXGroup;
+			children = (
+				72AE2786804033BC48A49601443F4CFB /* Pod */,
+				DE9825B75A0649439C5A86982B5867CE /* Support Files */,
+			);
+			name = PulseWave;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5DEF606055439CC32DDD9C6B726F6656 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98B4E9FB34AF7ED8E1C675665EB92D68 /* Pods-PulseWave_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		72766738026FB91979502951A676FAE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F2B5AD343A8AC6E7E12CDB579BEFCEF /* Pods_PulseWave_Tests.framework */,
+				8A2B2A0ABB03B53938C046CD36133726 /* PulseWave.bundle */,
+				C6418275EA2CFF6B7244E92E997B6323 /* PulseWave.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72AE2786804033BC48A49601443F4CFB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9AFEC63A1B768F1526FEB2B62D3BD582 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				208188E01E22DF8E270F78597370632F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				72766738026FB91979502951A676FAE8 /* Products */,
+				5DEF606055439CC32DDD9C6B726F6656 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		98B4E9FB34AF7ED8E1C675665EB92D68 /* Pods-PulseWave_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C9AE73B0AB27DE3D1B9F5CA400506C34 /* Info.plist */,
+				A76848A5947A338C97D0857E3D41EA69 /* Pods-PulseWave_Tests.modulemap */,
+				BC77CD13700FB14DF36E2BF418F9D7AA /* Pods-PulseWave_Tests-acknowledgements.markdown */,
+				927BCA37D602514136B782E7995B936B /* Pods-PulseWave_Tests-acknowledgements.plist */,
+				FFB8D30D2CD2316583C01DBAFF6A95E6 /* Pods-PulseWave_Tests-dummy.m */,
+				11460D248817B95C6127477F9D100EA4 /* Pods-PulseWave_Tests-frameworks.sh */,
+				3369893C3446968A11B50DDEFA28E034 /* Pods-PulseWave_Tests-resources.sh */,
+				97D2BB88BE377050142714E605B192DD /* Pods-PulseWave_Tests-umbrella.h */,
+				ECAAF68B4C49C7285F3F4E12989BC326 /* Pods-PulseWave_Tests.debug.xcconfig */,
+				1642C5785F59AD7834716691621AD2FC /* Pods-PulseWave_Tests.release.xcconfig */,
+			);
+			name = "Pods-PulseWave_Tests";
+			path = "Target Support Files/Pods-PulseWave_Tests";
+			sourceTree = "<group>";
+		};
+		9AFEC63A1B768F1526FEB2B62D3BD582 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E6B00A841BE7A24400D729F5 /* PWByteUtils.h */,
+				E6B00A851BE7A24400D729F5 /* PWByteUtils.m */,
+				E6B00A861BE7A24400D729F5 /* PWEtactCmd.h */,
+				E6B00A871BE7A24400D729F5 /* PWEtactCmd.m */,
+				E6B00A881BE7A24400D729F5 /* PWEtactCommands.h */,
+				E6B00A891BE7A24400D729F5 /* PWEtactCommands.m */,
+				E6B00A8A1BE7A24400D729F5 /* PWEtactReader.h */,
+				E6B00A8B1BE7A24400D729F5 /* PWEtactReader.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DE9825B75A0649439C5A86982B5867CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FF83AE0D6E97D427D73BCB26615D41A /* Info.plist */,
+				C8DF7D1A32F24EFEE8E26C46685DBE44 /* PulseWave.modulemap */,
+				0563B3E490618FFF253EC2F2805F44C1 /* PulseWave.xcconfig */,
+				08A4C3D2BFFD3D3A4D19FA9A5D1781CC /* PulseWave-dummy.m */,
+				951BFE9EF017FF198E68F71BBC82B8BE /* PulseWave-prefix.pch */,
+				7452FB67E98DED4F60E957630BF0799B /* PulseWave-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PulseWave";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		55E733389D69A35AE7154C92FD8B7B63 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC06F653341669EAF8294557D7634FE /* PulseWave-umbrella.h in Headers */,
+				E6B00A951BE7A24400D729F5 /* PWEtactCommands.h in Headers */,
+				E6B00A8D1BE7A24400D729F5 /* PWByteUtils.h in Headers */,
+				E6B00A911BE7A24400D729F5 /* PWEtactCmd.h in Headers */,
+				E6B00A991BE7A24400D729F5 /* PWEtactReader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C9807B51122CCB35E6A67BDF2D1195E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9104EC03B875DACD81277E1971BEAA /* Pods-PulseWave_Tests-umbrella.h in Headers */,
+				E6B00A941BE7A24400D729F5 /* PWEtactCommands.h in Headers */,
+				E6B00A8C1BE7A24400D729F5 /* PWByteUtils.h in Headers */,
+				E6B00A901BE7A24400D729F5 /* PWEtactCmd.h in Headers */,
+				E6B00A981BE7A24400D729F5 /* PWEtactReader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		85811539B363337ED0AFC2026E297829 /* PulseWave-PulseWave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E2E49FA9984990215002E2FEC9F1BD /* Build configuration list for PBXNativeTarget "PulseWave-PulseWave" */;
+			buildPhases = (
+				28AE5BF6E8DFE80E1792A9299D7A95E9 /* Sources */,
+				C01BBBF1B14867A56A9F69A33F46A7AB /* Frameworks */,
+				609E590BE3502D33E18548822DD1E44F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PulseWave-PulseWave";
+			productName = "PulseWave-PulseWave";
+			productReference = 8A2B2A0ABB03B53938C046CD36133726 /* PulseWave.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		CE936099C605327FA23DDA3DA8A4BD9E /* Pods-PulseWave_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA3A2FCFC5E134DCA488A934B7C1883 /* Build configuration list for PBXNativeTarget "Pods-PulseWave_Tests" */;
+			buildPhases = (
+				1A5D04248D7C8AD0F2DE567CA46DBCF9 /* Sources */,
+				3943F44F71B8A6A927AA87E0FAAF2241 /* Frameworks */,
+				6C9807B51122CCB35E6A67BDF2D1195E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9171BC530202C807985214995F06777E /* PBXTargetDependency */,
+			);
+			name = "Pods-PulseWave_Tests";
+			productName = "Pods-PulseWave_Tests";
+			productReference = 9F2B5AD343A8AC6E7E12CDB579BEFCEF /* Pods_PulseWave_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2BA03F71BD7EA5FC872C91BF06AF91F /* PulseWave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC412C8478DA44861EDFA5849FBA0BA5 /* Build configuration list for PBXNativeTarget "PulseWave" */;
+			buildPhases = (
+				92E08959B7657B495DF432C7CF6CAE56 /* Sources */,
+				FE0642A035ED76E5379A0C2E37E4E4C3 /* Frameworks */,
+				6B2B709D1934C6F3ACCC2CC0CD9B184F /* Resources */,
+				55E733389D69A35AE7154C92FD8B7B63 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA65C330322367E7FD7C1D21D61FE9C /* PBXTargetDependency */,
+			);
+			name = PulseWave;
+			productName = PulseWave;
+			productReference = C6418275EA2CFF6B7244E92E997B6323 /* PulseWave.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 72766738026FB91979502951A676FAE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE936099C605327FA23DDA3DA8A4BD9E /* Pods-PulseWave_Tests */,
+				F2BA03F71BD7EA5FC872C91BF06AF91F /* PulseWave */,
+				85811539B363337ED0AFC2026E297829 /* PulseWave-PulseWave */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		609E590BE3502D33E18548822DD1E44F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2B709D1934C6F3ACCC2CC0CD9B184F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7EE1762CC89BADDDEAA185C5DACFA6 /* PulseWave.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A5D04248D7C8AD0F2DE567CA46DBCF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B00A921BE7A24400D729F5 /* PWEtactCmd.m in Sources */,
+				E6B00A8E1BE7A24400D729F5 /* PWByteUtils.m in Sources */,
+				E6B00A961BE7A24400D729F5 /* PWEtactCommands.m in Sources */,
+				ED458969532901EC392BAD63CEDDF65B /* Pods-PulseWave_Tests-dummy.m in Sources */,
+				E6B00A9A1BE7A24400D729F5 /* PWEtactReader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28AE5BF6E8DFE80E1792A9299D7A95E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E08959B7657B495DF432C7CF6CAE56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B0725C52CAB26805D289CA265F4398 /* PulseWave-dummy.m in Sources */,
+				E6B00A971BE7A24400D729F5 /* PWEtactCommands.m in Sources */,
+				E6B00A9B1BE7A24400D729F5 /* PWEtactReader.m in Sources */,
+				E6B00A8F1BE7A24400D729F5 /* PWByteUtils.m in Sources */,
+				E6B00A931BE7A24400D729F5 /* PWEtactCmd.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9171BC530202C807985214995F06777E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PulseWave;
+			target = F2BA03F71BD7EA5FC872C91BF06AF91F /* PulseWave */;
+			targetProxy = 5C212DDEDF370F3EC738FD19E934C91E /* PBXContainerItemProxy */;
+		};
+		FDA65C330322367E7FD7C1D21D61FE9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PulseWave-PulseWave";
+			target = 85811539B363337ED0AFC2026E297829 /* PulseWave-PulseWave */;
+			targetProxy = 7EAB4D7FE6687B003B075BC2F178FDAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		002A6BF3F33913B8EB97312557EAED77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0563B3E490618FFF253EC2F2805F44C1 /* PulseWave.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PulseWave;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		31EC91F8D425E71360CC4604334417D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0563B3E490618FFF253EC2F2805F44C1 /* PulseWave.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PulseWave/PulseWave-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PulseWave/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PulseWave/PulseWave.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PulseWave;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7CB7D4A86198693E09ABF85720173605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECAAF68B4C49C7285F3F4E12989BC326 /* Pods-PulseWave_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PulseWave_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PulseWave_Tests/Pods-PulseWave_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PulseWave_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8914F297869BF976E29CAFC0FED9AD54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0563B3E490618FFF253EC2F2805F44C1 /* PulseWave.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PulseWave;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		DB29FEAB0D4366176472AD446C7BFFAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0563B3E490618FFF253EC2F2805F44C1 /* PulseWave.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PulseWave/PulseWave-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PulseWave/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PulseWave/PulseWave.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PulseWave;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB5CA7196D562FBFAABD0255A35E5D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1642C5785F59AD7834716691621AD2FC /* Pods-PulseWave_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PulseWave_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PulseWave_Tests/Pods-PulseWave_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PulseWave_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74E2E49FA9984990215002E2FEC9F1BD /* Build configuration list for PBXNativeTarget "PulseWave-PulseWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002A6BF3F33913B8EB97312557EAED77 /* Debug */,
+				8914F297869BF976E29CAFC0FED9AD54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA3A2FCFC5E134DCA488A934B7C1883 /* Build configuration list for PBXNativeTarget "Pods-PulseWave_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB7D4A86198693E09ABF85720173605 /* Debug */,
+				DB5CA7196D562FBFAABD0255A35E5D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC412C8478DA44861EDFA5849FBA0BA5 /* Build configuration list for PBXNativeTarget "PulseWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB29FEAB0D4366176472AD446C7BFFAB /* Debug */,
+				31EC91F8D425E71360CC4604334417D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
