@@ -1,8 +1,8 @@
 {
   "name": "PulseWave",
-  "version": "0.1.0",
-  "summary": "PulseWave is an awesome product",
-  "description": "Pulsewave needed a description so there it is",
+  "version": "0.2.0",
+  "summary": "PulseWave is a communication platform for pulwave readers",
+  "description": "Pulsewave is a tool to let developers read data from a pulsewave analyser.",
   "homepage": "https://github.com/Njko/PulseWave",
   "license": "MIT",
   "authors": {
@@ -10,16 +10,20 @@
   },
   "source": {
     "git": "https://github.com/Njko/PulseWave.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "PulseWave": [
-      "Pod/Assets/*.png"
+  "public_header_files": "Pod/Classes/**/*.h",
+  "dependencies": {
+    "CocoaLumberjack": [
+
+    ],
+    "RedparkSerial": [
+
     ]
   }
 }

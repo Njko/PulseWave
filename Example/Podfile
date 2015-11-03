@@ -1,6 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
-use_frameworks!
+source 'https://github.com/Njko/PrivateSpecs.git'
 
 pod "PulseWave", :path => "../"
-  
-end
+pod "RedparkSerial"
