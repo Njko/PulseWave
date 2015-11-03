@@ -1,19 +1,19 @@
 {
   "name": "PulseWave",
   "version": "0.1.0",
-  "summary": "A short description of PulseWave.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/PulseWave",
+  "summary": "PulseWave is an awesome product",
+  "description": "Pulsewave needed a description so there it is",
+  "homepage": "https://github.com/Njko/PulseWave",
   "license": "MIT",
   "authors": {
     "nicolas.linard": "nicolas.linard@valtech.fr"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/PulseWave.git",
+    "git": "https://github.com/Njko/PulseWave.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "7.0"
+    "ios": "8.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
