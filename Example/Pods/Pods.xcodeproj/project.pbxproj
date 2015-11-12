@@ -43,6 +43,8 @@
 		D70BDFA09F4803DCFEAD7AF5DFE21C6A /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B64DF5C9D11BF7BD24ED54AA32F5F75 /* DDLog.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		D86F62CA5DFEB5481E009AF3C783B179 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		E1ED34DB49C6A05D740B8425F88CEC20 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4254364A249E2C8DD3138AE715F17A /* DDMultiFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E62B91F91BF4AB62007A77D5 /* PWLoggerDecorator.h in Headers */ = {isa = PBXBuildFile; fileRef = E62B91F71BF4AB62007A77D5 /* PWLoggerDecorator.h */; settings = {ASSET_TAGS = (); }; };
+		E62B91FA1BF4AB62007A77D5 /* PWLoggerDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E62B91F81BF4AB62007A77D5 /* PWLoggerDecorator.m */; settings = {ASSET_TAGS = (); }; };
 		E62BE6B268978FD3152A257E53963AC8 /* PWDataReaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC5DB2343CA9DD0ED9FD8C442A45C7C /* PWDataReaderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB01AC8EDAF292CA30D1701FAE62EE13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		EE8A254104A850D44F88D73EADAF56C2 /* PWEtactCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC49F2228C382AF5F5D8D40AD05165A /* PWEtactCommands.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -133,6 +135,8 @@
 		D193B49B775278AA4E4EB078D6DAF122 /* DDASLLogCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogCapture.m; path = Classes/DDASLLogCapture.m; sourceTree = "<group>"; };
 		D6C21C25F4667E33D0EF21F1951BE12B /* PWDataReaderController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PWDataReaderController.h; sourceTree = "<group>"; };
 		E3BE51C58F72E2C241E3BD1C0E8CD1CB /* CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
+		E62B91F71BF4AB62007A77D5 /* PWLoggerDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWLoggerDecorator.h; sourceTree = "<group>"; };
+		E62B91F81BF4AB62007A77D5 /* PWLoggerDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWLoggerDecorator.m; sourceTree = "<group>"; };
 		EEC5DB2343CA9DD0ED9FD8C442A45C7C /* PWDataReaderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PWDataReaderDelegate.h; sourceTree = "<group>"; };
 		EF7E5A7618EAB3497063CAB79184EE5E /* DDFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDFileLogger.m; path = Classes/DDFileLogger.m; sourceTree = "<group>"; };
 		F2045E346FD51707EB1EF1B38EACC2BE /* RedparkSerial.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedparkSerial.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -206,6 +210,8 @@
 				773DFB3FF496A8973D3687D78BBB9569 /* PWEtactCommands.m */,
 				022C77C986E1032E6222D4AB35D10CAE /* PWEtactReader.h */,
 				8AA78741E372DC5CA61A4AF01744E29B /* PWEtactReader.m */,
+				E62B91F71BF4AB62007A77D5 /* PWLoggerDecorator.h */,
+				E62B91F81BF4AB62007A77D5 /* PWLoggerDecorator.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -397,6 +403,7 @@
 				67E741D303696F9A1E863BC42E6A9C79 /* DDASLLogger.h in Headers */,
 				906BA39B4449184A264475B0AAA9CD7B /* DDAssertMacros.h in Headers */,
 				4CAAFD85FC04FBFFB61A22F14C8D4684 /* DDContextFilterLogFormatter.h in Headers */,
+				E62B91F91BF4AB62007A77D5 /* PWLoggerDecorator.h in Headers */,
 				5539A292EFC958D90F290DBA5FF86220 /* DDDispatchQueueLogFormatter.h in Headers */,
 				C515A390D549AF8A16A76DD72388BD2C /* DDFileLogger.h in Headers */,
 				BBCA69A708A7B3DD861FB839B3A251B3 /* DDLegacyMacros.h in Headers */,
@@ -560,6 +567,7 @@
 				656479029A5A15463E080FD25F8903B2 /* DDASLLogger.m in Sources */,
 				6DAEF151B35D00265D60C4AD34431DD9 /* DDContextFilterLogFormatter.m in Sources */,
 				FE6239BDE2049B920243DC0F907F57B9 /* DDDispatchQueueLogFormatter.m in Sources */,
+				E62B91FA1BF4AB62007A77D5 /* PWLoggerDecorator.m in Sources */,
 				41F221F9E8FDE456D3E9EB34B4C5EBF1 /* DDFileLogger.m in Sources */,
 				D70BDFA09F4803DCFEAD7AF5DFE21C6A /* DDLog.m in Sources */,
 				E1ED34DB49C6A05D740B8425F88CEC20 /* DDMultiFormatter.m in Sources */,
