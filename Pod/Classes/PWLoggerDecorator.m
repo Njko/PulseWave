@@ -30,9 +30,11 @@
     
     NSString *dateAndTime = [threadUnsafeDateFormatter stringFromDate:(logMessage->_timestamp)];
     NSString *logMsg = logMessage->_message;
-    NSString *filename = logMessage->_fileName;
+    NSString *filename = logMessage->_file;
+    NSString *function = logMessage->_function;
+    NSUInteger lineNumber = logMessage->_line;
     
-    return [NSString stringWithFormat:@"%@ - %@ | %@ | %s [Line %d]| %@\n", logLevel, dateAndTime, filename, __PRETTY_FUNCTION__, __LINE__, logMsg];
+    return [NSString stringWithFormat:@"%@ - %@ | %@ [%@ - line %lu] | %@\n", logLevel, dateAndTime, filename,function, (unsigned long)lineNumber, logMsg];
 }
 
 - (void)didAddToLogger:(id <DDLogger>)logger {
