@@ -109,8 +109,7 @@ static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
 
 
 -(void)portStatusChanged{
-    DDLogInfo(@"%s - Port status changed", __PRETTY_FUNCTION__);
-
+    DDLogInfo(@"Port status changed");
 }
 
 
@@ -126,15 +125,15 @@ static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
     [self.cmdTimer invalidate];
     switch (cmd) {
         case 0x04:
-            DDLogInfo(@"%s [Line %d] - Updating Harware Version to: %@", __PRETTY_FUNCTION__, __LINE__, (NSNumber*)result);
+            DDLogInfo(@"Updating Harware Version to: %@", (NSNumber*)result);
             [self performSelectorOnMainThread:@selector(updateHardwareVersion:) withObject:result waitUntilDone:NO];
             break;
         case 0x05:
-            DDLogInfo(@"%s [Line %d] - Updating Software Version to: %@", __PRETTY_FUNCTION__, __LINE__, (NSNumber*)result);
+            DDLogInfo(@"Updating Software Version to: %@", (NSNumber*)result);
             [self performSelectorOnMainThread:@selector(updateSoftwareVersion:) withObject:result waitUntilDone:NO];
             break;
         case 0x06:
-            DDLogInfo(@"%s [Line %d] - Updating Bart Version to: %@", __PRETTY_FUNCTION__, __LINE__, (NSNumber*)result);
+            DDLogInfo(@"Updating Bart Version to: %@", (NSNumber*)result);
             [self performSelectorOnMainThread:@selector(updateBartVersion:) withObject:result waitUntilDone:NO];
             break;
         default:

@@ -10,6 +10,9 @@
 #import <Foundation/Foundation.h>
 #import "DDLog.h"
 
-@interface PWLoggerDecorator : NSObject <DDLogFormatter>
+@interface PWLoggerDecorator : NSObject <DDLogFormatter> {
+    int loggerCount;
+    NSDateFormatter *threadUnsafeDateFormatter;
+}
 
 @end
