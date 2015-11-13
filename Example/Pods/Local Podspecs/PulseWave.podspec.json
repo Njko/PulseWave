@@ -1,6 +1,6 @@
 {
   "name": "PulseWave",
-  "version": "0.3.5",
+  "version": "0.4.0",
   "summary": "PulseWave is a communication platform for pulwave readers",
   "description": "Pulsewave is a tool to let developers read data from a pulsewave analyser.",
   "homepage": "https://github.com/Njko/PulseWave",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/Njko/PulseWave.git",
-    "tag": "0.3.5"
+    "tag": "0.4.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -18,7 +18,6 @@
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
   "public_header_files": "Pod/Classes/**/*.h",
-  "vendored_frameworks": "Example/RedparkSerialFramework.framework",
   "dependencies": {
     "CocoaLumberjack": [
 

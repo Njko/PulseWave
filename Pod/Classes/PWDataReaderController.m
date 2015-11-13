@@ -6,7 +6,7 @@
 //  Copyright © 2015 MEDES. All rights reserved.
 //
 
-#import <RedparkSerial/RscMgr.h>
+#import <RedparkSerialFramework/redparkSerial.h>
 #import <CocoaLumberjack/CocoaLumberjack.h>
 #import "PWDataReaderController.h"
 #import "PWEtactReader.h"

@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "PulseWave"
-  s.version          = "0.3.5"
+  s.version          = "0.4.0"
   s.summary          = "PulseWave is a communication platform for pulwave readers"
 
   s.description      = <<-DESC
@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
   s.source_files = 'Pod/Classes/**/*'
   s.public_header_files = 'Pod/Classes/**/*.h'
   s.dependency 'CocoaLumberjack'
-  s.dependency 'RedparkSerial'
+  s.dependency 'RedparkSerialFramework'
 end
