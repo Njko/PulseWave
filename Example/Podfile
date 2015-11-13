@@ -2,4 +2,4 @@ source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/Njko/PrivateSpecs.git'
 
 pod "PulseWave", :path => "../"
-pod "RedparkSerial"
+pod "RedparkSerialFramework"

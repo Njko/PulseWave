@@ -1,1 +1,0 @@
-../../../RedparkSerial/Pod/Classes/RscMgr.h
