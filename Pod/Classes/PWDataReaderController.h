@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <RedparkSerialFramework/RscMgr.h>
+#import <RedparkSerialFramework/RedparkSerialFramework.h>
 #import "PWEtactReader.h"
 #import "PWDataReaderDelegate.h"
 
