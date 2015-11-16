@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "PulseWave"
-  s.version          = "0.4.3"
+  s.version          = "0.4.4"
   s.summary          = "PulseWave is a communication platform for pulwave readers"
 
   s.description      = <<-DESC
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/Njko/PulseWave.git", :tag => s.version.to_s }
 
   s.platform     = :ios
-  s.ios.deployment_targe = "8.0"
+  s.ios.deployment_target = "8.0"
   s.compiler_flags = '-ObjC'
   s.requires_arc = true
 
