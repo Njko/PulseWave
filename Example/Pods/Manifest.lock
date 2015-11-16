@@ -7,10 +7,10 @@ PODS:
     - CocoaLumberjack/Core
   - CocoaLumberjack/Extensions (2.2.0):
     - CocoaLumberjack/Default
-  - PulseWave (0.4.0):
+  - PulseWave (0.4.2):
     - CocoaLumberjack
     - RedparkSerialFramework
-  - RedparkSerialFramework (1.1.0)
+  - RedparkSerialFramework (1.2.1)
 
 DEPENDENCIES:
   - PulseWave (from `../`)
@@ -22,7 +22,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
-  PulseWave: 3d0aec2f9717715c85e2d62c615184e7ce6b9bf7
-  RedparkSerialFramework: b3de48252bbea0adc01865dad539831d793de236
+  PulseWave: 7f605395be00ddaa32bb1016b63da6580b3daced
+  RedparkSerialFramework: acac5b0526ee208673e6ac29f996a12c712afd18
 
 COCOAPODS: 0.39.0
