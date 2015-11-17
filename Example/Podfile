@@ -3,3 +3,4 @@ source 'https://github.com/Njko/PrivateSpecs.git'
 
 pod "PulseWave", :path => "../"
 pod "RedparkSerialFramework"
+pod "CocoaLumberjack"

@@ -1,1 +1,0 @@
-../../../../RedparkSerialFramework/RedparkSerialFramework.framework/Headers/RscMgr.h

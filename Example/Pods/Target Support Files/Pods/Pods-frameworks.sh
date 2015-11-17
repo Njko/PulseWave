@@ -84,8 +84,8 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_ROOT}/RedparkSerialFramework/RedparkSerialFramework.framework"
+  install_framework "${PODS_ROOT}/RedparkSerialFramework/RedparkSerialFramework/Output/RedparkSerialFramework-Release-iphoneuniversal/RedparkSerialFramework.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_ROOT}/RedparkSerialFramework/RedparkSerialFramework.framework"
+  install_framework "${PODS_ROOT}/RedparkSerialFramework/RedparkSerialFramework/Output/RedparkSerialFramework-Release-iphoneuniversal/RedparkSerialFramework.framework"
 fi

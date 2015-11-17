@@ -1,1 +1,1 @@
-../../../../RedparkSerialFramework/RedparkSerialFramework.framework/Headers/RedparkSerialFramework.h
+../../../../RedparkSerialFramework/RedparkSerialFramework/Output/RedparkSerialFramework-Release-iphoneuniversal/RedparkSerialFramework.framework/Headers/RedparkSerialFramework.h

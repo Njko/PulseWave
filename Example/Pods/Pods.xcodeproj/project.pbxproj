@@ -76,6 +76,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B9722A74697FF2855F774D2C02C931E /* RedparkSerialFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RedparkSerialFramework.framework; path = "RedparkSerialFramework/Output/RedparkSerialFramework-Release-iphoneuniversal/RedparkSerialFramework.framework"; sourceTree = "<group>"; };
 		10366D4D7B2206A146BF47DA41DD3A30 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDContextFilterLogFormatter.m; path = Classes/Extensions/DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
 		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
 		10D14E8B67DAA1393F0CE78900CF5E6D /* DDMultiFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDMultiFormatter.h; path = Classes/Extensions/DDMultiFormatter.h; sourceTree = "<group>"; };
@@ -106,7 +107,6 @@
 		91EC6522A6E07133DC506CF6A84BDD86 /* PWEtactCmd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PWEtactCmd.m; sourceTree = "<group>"; };
 		927B5945CAE4327E3EDF93EA3B406A17 /* PulseWave-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PulseWave-prefix.pch"; sourceTree = "<group>"; };
 		92977C787F051307AAAECD6F0FAD4A87 /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = Classes/DDLog.h; sourceTree = "<group>"; };
-		962DD8070D8FCB7885ACF3B8A29E2696 /* RedparkSerialFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RedparkSerialFramework.framework; sourceTree = "<group>"; };
 		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
 		9B0CAAEC18FEFA2CDAD0C87E30A00D70 /* PWByteUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PWByteUtils.m; sourceTree = "<group>"; };
 		9BDFC3A309EAAE8E2D6F5BE5F92E3624 /* CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
@@ -193,14 +193,6 @@
 				3AF82C77D1AB1EF57DF940FD3B99B151 /* CocoaLumberjack.h */,
 			);
 			name = Default;
-			sourceTree = "<group>";
-		};
-		2F5252E94B2E83663BABE4CAED7B1F53 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				962DD8070D8FCB7885ACF3B8A29E2696 /* RedparkSerialFramework.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		4EF61843E7F3A9C406A44BDCC04E4EB0 /* Pod */ = {
@@ -338,7 +330,7 @@
 		BF25E684447202B940F04F4FCD63FB1A /* RedparkSerialFramework */ = {
 			isa = PBXGroup;
 			children = (
-				2F5252E94B2E83663BABE4CAED7B1F53 /* Frameworks */,
+				C50456ECC435C1F87A97A7DD662E06A2 /* Frameworks */,
 			);
 			path = RedparkSerialFramework;
 			sourceTree = "<group>";
@@ -349,6 +341,14 @@
 				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		C50456ECC435C1F87A97A7DD662E06A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B9722A74697FF2855F774D2C02C931E /* RedparkSerialFramework.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DD6A0522486229A908104F795CC73798 /* Pods */ = {
